@@ -1,24 +1,26 @@
-**Mobile Programming Assignment: API Consumption (Kotlin)**
+# Mobile Programming Assignment: API Consumption (Kotlin)
 This project is an Android application developed in Kotlin that demonstrates how to consume a REST API using Retrofit 2. The app follows specific academic requirements based on the student's identification number (NIM).
 
-#👤 Student Profile
-Name: Jeanette Hauw Chandra
+## 👤 Student Profile
+**Name**: Jeanette Hauw Chandra
+**NIM**: 2702323276
 
-NIM: 2702323276
+## 📋 Assignment Specifications
+Based on the student ID (NIM) ending in **6**, this project fulfills the following criteria:
+* **Data Source:** [JSONPlaceholder Users Service](https://jsonplaceholder.typicode.com/users)
+* **Fields Displayed:** User's **Username** and **Email**
+* **Application Flow:**
+    1. **List Screen:** Fetches and displays a list of users from the API service
+    2. **Navigation:** Selecting a specific user redirects the app to the Detail Screen
+    3. **Detail Screen:** Displays the student's personal identification (Name & NIM) along with the detailed attributes of the selected user
 
-NIM Last Digit: 6
+## 🛠 Technical Stack
+The application is built using the following libraries and tools:
 
-#📋 Assignment Specifications
-Based on the NIM ending in 6, the application is configured with the following requirements:
-
-Service API: JSONPlaceholder - Users Endpoint
-
-Data Fields: Display Username and Email.
-
-App Flow:
-
-First Screen: Displays a scrollable list of users fetched from the API.
-
-Navigation: Clicking an item redirects the user to a Detail Screen.
-
-Detail Screen: Displays the student's personal data (Name & NIM) and complete details of the selected user.
+| Category | Technology |
+| :--- | :--- |
+| **Language** | Kotlin |
+| **Networking** | **Retrofit 2** & **GSON Converter** (JSON Parsing) |
+| **Threading** | **Kotlin Coroutines** & **Lifecycle KTX** (lifecycleScope) |
+| **UI Binding** | **ViewBinding** (Safe layout access) |
+| **UI Components** | RecyclerView, ConstraintLayout, LinearLayout |  
