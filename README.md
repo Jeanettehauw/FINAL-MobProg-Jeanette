@@ -1,6 +1,7 @@
 # Mobile Programming Assignment: API Consumption (Kotlin)
 This project is an Android application developed in Kotlin that demonstrates how to consume a REST API using Retrofit 2. The app follows specific academic requirements based on the student's identification number (NIM).
 
+Vid Demo: https://www.youtube.com/watch?v=r3VV2wuSFGM
 ## 👤 Student Profile
 **Name**: Jeanette Hauw Chandra
 **NIM**: 2702323276
